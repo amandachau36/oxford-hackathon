@@ -6,12 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 
 
+
 class BootNav extends Component{
 
   render(){
     return(
       <Navbar className='nav-image' xpand="lg">
-        <Navbar.Brand style={{color: 'white'}} href="#home"><Image style={{maxHeight:'2.5em'}} src="https://amandachau36.github.io/oxford-hackathonsearch.png"/> </Navbar.Brand>
+        <Navbar.Brand style={{color: 'white'}} href="#home"><Image style={{maxHeight:'2.5em'}} src="/images/oxford.png"/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
